@@ -11,7 +11,7 @@ public:
             while (j < n - 1) {
                 int k = j + 1;
                 while (k < n) {
-                    // Since sorted, only one check is enough
+                   
                     if (arr[i] + arr[j] > arr[k]) {
                         ct++;
                     }
