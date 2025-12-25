@@ -11,7 +11,7 @@ public:
 
             if(arr[mid]==tar) return mid;
 
-            else if(arr[low]<arr[mid]){
+            else if(arr[low]<=arr[mid]){
 
                 if(tar<=arr[mid] && tar>=arr[low]){
                     high=mid-1;
