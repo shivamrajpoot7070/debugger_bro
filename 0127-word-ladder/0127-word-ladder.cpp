@@ -14,7 +14,7 @@ public:
 
         q.push({begin,1});
 
-        mpp.erase(begin);
+       // mpp.erase(begin);
 
         while(q.size()>0){
 
